@@ -11,7 +11,7 @@ contract Implementation is Initializable {
 
   event Withdrawal(uint amount, uint when, address indexed to);
 
-  function initialize(address newOwner) external initializer {
+  function initialize(address newOwner) payable external initializer {
     // empty initializer
     owner = payable(newOwner);
   }

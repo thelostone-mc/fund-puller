@@ -9,7 +9,7 @@ utils.assertEnvironment();
   
 export async function main() {
 
-  const factoryContract = "0x862D7F621409cF572f179367DdF1B7144AcE1c76";
+  const factoryContract = "0x9Cb7f434aD3250d1656854A9eC7A71EceC6eE1EF";
  
   const factory = await ethers.getContractAt('Factory', factoryContract);
   
